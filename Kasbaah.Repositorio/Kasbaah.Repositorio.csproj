@@ -44,6 +44,16 @@
     <Compile Include="UsuarioRepositorio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kasbaah.Dominio.Entidade\Kasbaah.Dominio.Entidade.csproj">
+      <Project>{4230e7b4-3fd8-4385-ab9f-4f8fe2f35489}</Project>
+      <Name>Kasbaah.Dominio.Entidade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kasbaah.Dominio.Interface\Kasbaah.Dominio.Interface.csproj">
+      <Project>{0A2A5D89-556A-4604-B933-19EBD7AB0435}</Project>
+      <Name>Kasbaah.Dominio.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
